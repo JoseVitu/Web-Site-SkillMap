@@ -4,11 +4,10 @@ body {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-/* Cabeçalho/Navbar */
 .navbar {
     background: linear-gradient(to right bottom, #4B0082, #8A2BE2);
     padding: 0.5rem 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicionado sombra para dar profundidade */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-dark .navbar-brand, 
@@ -38,38 +37,38 @@ body {
 }
 
 .navbar .nav-item {
-    margin-left: 15px; /* Espaçamento entre os itens */
+    margin-left: 15px;
 }
 
-/* Botão destacado */
+
 .nav-btn {
-    background-color: white; /* Cor baseada no hover */
+    background-color: white;
     border: none;
     padding: 0.5rem 1.5rem;
     margin-left: 15px;
     border-radius: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     color: #4B0082;
-    font-weight: bold; /* Letras em negrito */
-    cursor: pointer; /* Estilo de cursor de botão */
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .nav-btn:hover {
-    background-color: #f5f2f8; /* Cor um pouco mais escura no hover */
+    background-color: #f5f2f8;
     transform: translateY(-2px);
 }
 
-/* Mockups */
+
 section {
     padding: 2rem 0;
 }
 
-/* Explicações */
+
 section.bg-light {
     background-color: #f9f9f9;
 }
 
-/* Tabela de Precificação */
+
 table {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
@@ -79,7 +78,7 @@ table {
     overflow-x: auto;
 }
 
-/* Botões */
+
 .btn {
     font-size: 1.75rem;
     border-radius: 0.5rem;
@@ -97,7 +96,7 @@ table {
     color: white;
 }
 
-/* Rodapé */
+
 footer {
     background: linear-gradient(to right bottom, #4B0082, #8A2BE2);
     color: white;
@@ -133,8 +132,8 @@ footer {
     }
 
     .bg-image {
-        background-size: auto 100%; /* Ajusta o tamanho da imagem de fundo para caber na altura e largura do elemento */
-        background-position: center top; /* Centraliza horizontalmente e alinha ao topo verticalmente */
+        background-size: auto 100%;
+        background-position: center top;
     }
 
     .feature-box i {
@@ -147,39 +146,39 @@ footer {
     }
 
     .navbar {
-        padding: 1rem 0; /* Aumenta o padding do navbar para um melhor toque em dispositivos móveis */
+        padding: 1rem 0;
     }
 
     .navbar .nav-item {
-        margin-left: 5px; /* Reduz o espaçamento entre os itens do navbar em dispositivos móveis */
-        margin-right: 5px; /* Adicionado espaçamento à direita para equilibrar */
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .navbar-brand, .navbar-nav {
-        margin: 0 auto; /* Centraliza marca e itens de navegação */
+        margin: 0 auto;
     }
 
     .nav-btn {
-        display: block; /* Torna o botão de destaque em bloco */
-        margin: 10px auto; /* Centraliza o botão e adiciona um pequeno espaço acima e abaixo */
+        display: block;
+        margin: 10px auto;
     }
 
     .btn {
-        font-size: 1.5rem; /* Reduz o tamanho da fonte dos botões para um melhor ajuste */
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 576px) {
-    /* Ajustes para telas menores, como dispositivos móveis em orientação retrato */
+
     .navbar .navbar-brand img {
-        max-height: 50px; /* Reduz a altura do logo no navbar para telas menores */
+        max-height: 50px;
     }
 
     section {
-        padding: 1rem 0; /* Reduz o padding das seções para economizar espaço vertical */
+        padding: 1rem 0;
     }
 
     .btn {
-        font-size: 1.25rem; /* Reduz ainda mais o tamanho da fonte dos botões para telas menores */
+        font-size: 1.25rem;
     }
 }
